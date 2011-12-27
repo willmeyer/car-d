@@ -1,0 +1,2 @@
+mvn package
+run.sh

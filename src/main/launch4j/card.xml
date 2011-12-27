@@ -1,0 +1,38 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>com.willmeyer.card-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar</jar>
+  <outfile>C:\Documents and Settings\will\My Documents\My Eclipse Workspace\car-d\bin\card.exe</outfile>
+  <errTitle>Sorry, we couldn&apos;t find Java on this computer.  You&apos;ll need to install it to run CarD.</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Documents and Settings\will\My Documents\My Eclipse Workspace\car-d\src\main\resources\webapp\favicon.ico</icon>
+  <singleInstance>
+    <mutexName>CarD</mutexName>
+    <windowTitle>CarD monitor window</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <minVersion>1.5.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <versionInfo>
+    <fileVersion>0.0.1.0</fileVersion>
+    <txtFileVersion>0.0.1</txtFileVersion>
+    <fileDescription>Automotive daemon application</fileDescription>
+    <copyright>Will Meyer (http://www.willmeyer.com)</copyright>
+    <productVersion>0.0.1.0</productVersion>
+    <txtProductVersion>0.0.1</txtProductVersion>
+    <productName>CarD</productName>
+    <companyName>willmeyer.com</companyName>
+    <internalName>CarD</internalName>
+    <originalFilename>card.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

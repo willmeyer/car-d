@@ -1,0 +1,114 @@
+html {
+}
+
+body {
+	background: #222 ;
+	color: #999;
+	font-family: arial,helvetica,lucida,tahoma,verdana,sans-serif;
+	font-size: .8em;
+    position: relative;
+}
+
+#page {
+    background: #000 ;
+    color: #999;
+    margin: 0px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: 0xAAA;
+    position: relative;
+}
+
+#page-content {
+	padding: 10px;
+    font-size: 1em;
+    /*
+    height: 100%;
+    */
+}
+
+#page-content h1 {
+    font-family: courier new;
+    font-size: 1.5em;
+    text-align: left;
+    color: #CCC;        
+}
+
+#page-content h1 a {
+    color: #CCC;
+    text-decoration: none;        
+}
+
+#page-content h2 {
+    font-family: courier new;
+    font-size: 1.2em;
+    text-align: left;
+    color: #CCC;        
+}
+
+#page-header {
+    padding: 0px;
+    margin: 0px;
+}
+
+#page-header h1 {
+    font-family: courier new;
+    font-size: 2 em;
+    text-align: center;
+    color: #FFF;		
+    margin: 5px;
+}
+
+#page-header h1 a {
+    text-align: center;
+    color: #FFF;        
+    text-decoration: none;
+}
+
+#page-footer {
+    margin: 0px;
+	margin-top: 10px;
+    padding: 5px;
+    border-top: 0.5px solid #444;
+    text-align: center;
+    color: #444;
+    font-size: .7em;
+}
+
+#page-header-bar {
+    margin: 0px;
+	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+    border-bottom: 0.5px solid #444;
+    text-align: center;
+    color: #AA0114;
+    font-size: .7em;
+}
+
+a {
+	color: #6E8BF7;
+}
+
+a:hover {
+	color: #f00;
+}
+
+.button { 
+	background-color : #444; 
+	color : #AAA; 
+	font : bold 14px/14px Courier, geneva, helvetica; 
+	border : 1px solid #000000; 
+	padding: 0px; 
+	margin: 0px;
+}
+ 
+.error_message {
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    color: red;
+    font-weight: bold;
+}
